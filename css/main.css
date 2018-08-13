@@ -1,0 +1,735 @@
+* {
+    transition: all 0.5s ease;
+}
+body{
+    background-color: #fff;
+}
+.scrolled{
+    background-color: rgba(0 , 0, 0, .85) !important; ;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+}
+/* ---------------- Start Header ---------------- */
+.header{
+     background: url("../images/hero-bg.jpg") top center fixed;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover ;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.header .overlay{
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header .center-vh{
+    margin-top: 25vh;
+}
+
+
+.header .center-vh img{
+    max-width: 100%;
+}
+
+.header .center-vh h1{
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.header .center-vh h2{
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header button{
+    color: #fff;
+    background-color: transparent;
+    display: inline-block;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 30px 10px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.header .start-btn{
+    background-color: #03C4EB;
+    border: none;
+    border: 2px solid #03C4EB;
+}
+.header .start-btn:hover{
+    background-color: transparent;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.header .services-btn:hover{
+    background-color: #03C4EB;
+    border-color: #03C4EB;
+    color: #fff;
+}
+/* ---------------- Start Navbar ---------------- */
+.navbar{
+    padding: 20px 0;
+    border-radius: 0;
+    background: #111;
+    border: none;
+}
+
+
+.navbar li{
+    padding: 5px;
+    font-weight: bold;
+}
+.navbar .nav .active ,
+.navbar .nav li a:hover{
+    color: #0F91D6;
+}
+.navbar img{
+    max-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ---------------- Start  About Us ---------------- */
+#about-us {
+    margin-bottom: 80px;
+}
+
+#about-us h1 {
+    font-weight: bold;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+#about-us h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about-us .desc{
+    color: #666666;
+    margin-bottom:40px;
+}
+#about-us img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+#about-us .row h3{
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#about-us .about-txt{
+    line-height: 25px;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+/* Start Our Service */
+#service {
+    background: url("../images/services-bg.jpg") fixed center center;
+    height:600px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover ;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#service .overlay{
+    background-color: rgba(255,255,255,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+
+}
+#service h1 {
+    font-weight: 700;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#service h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#service .desc{
+    color: #666666;
+    margin-bottom:40px;
+}
+
+#service .row{
+    margin-bottom: 40px;
+}
+
+#service .serv-icon{
+    float: left;
+    background-color: #03C4EB;
+    border-radius: 50%;
+    border: 1px solid #03C4EB;
+    padding: 16px;
+    margin-top:10px;
+}
+
+#service .fa{
+    font-size: 24px;
+    color: #fff;
+    display: inline-block;
+}
+#service h4{
+    color: #111;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#service .desc-p{
+    margin-left: 80px;
+    line-height: 24px;
+}
+
+/* Start Subscribe */
+.subscribe{
+    background: url("../images/subscribe-bg.jpg") fixed center center;
+    height: 260px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover ;
+    position: relative;
+}
+
+.subscribe .overlay{
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+
+}
+.subscribe h3{
+    color: #fff;
+    font-weight: 700;
+}
+.subscribe p{
+    color: #fff;
+    padding-top: 15px;
+}
+
+.subscribe .sub-btn{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin: 40px 30px;
+    transition: .4s;
+    border-radius: 0;
+}
+
+.subscribe .sub-btn:hover{
+    background-color: #03C4EB;
+    border: none;
+    padding: 12px 30px;
+    color: #fff;
+}
+
+/* Start portfolio */
+#portfolio{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#portfolio h1{
+    font-weight: bold;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#portfolio h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#portfolio .row{
+    margin-top: 40px;
+}
+#portfolio .portfolio-item{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 260px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+#portfolio .portfolio-item .details{
+    height: 260px;
+    background: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    transition: 0.3s;
+    text-align: center;
+}
+#portfolio .portfolio-item .details h4{
+    font-size: 16px;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+    font-weight: 700;
+    color: #333333;
+}
+#portfolio .portfolio-item .details span{
+    display: block;
+    color: #666666;
+    font-size: 13px;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, 15px, 0);
+    transform: translate3d(0, 15px, 0);
+}
+#portfolio .portfolio-item:hover .details {
+    opacity: 0.8;
+}
+
+#portfolio .portfolio-item:hover .details h4 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#portfolio .portfolio-item:hover .details span {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+#testimonials{
+    background-color: #F6F6F6;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#testimonials h1{
+    font-weight: bold;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#testimonials h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#testimonials .test-port {
+    text-align: center;
+}
+#testimonials .test-port .image{
+    border: 6px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#testimonials .test-port h4{
+    color: #03C4EB;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+/*@media (max-width: 767px) {
+    #testimonials .test-port h4{
+        float: left;
+    }
+}*/
+#testimonials .quote{
+    background-color: #fff;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+}
+/*@media (max-width: 767px) {
+    #testimonials .quote{
+        padding: 10px 2px;
+        float: left;
+        width: 400px;
+        margin-left: 20px;
+    }
+}*/
+/* ---------------- Start Team Section ---------------- */
+#team{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#team h1{
+    font-weight: bold;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#team h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#team .row{
+    padding-top: 30px;
+}
+#team img{
+    border: 3px solid #03C4EB;
+}
+/*@media (max-width: 767px) {
+    #team .im{
+        border: none;
+        text-align: center;
+    }
+    #team .im img{
+        margin: auto;
+    }
+}*/
+#team h4{
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    margin-bottom: 2px;
+}
+
+#team span{
+    font-style: italic;
+    color: #8c8c8c;
+}
+
+#team .social{
+    margin-top: 15px;
+}
+
+#team .social i{
+    font-size: 18px;
+    margin:0 2px;
+    color: #9FB5B9;
+}
+#team .social i:hover{
+    cursor: pointer;
+}
+#team .social .fa-twitter:hover{
+    color: #03C4EB;
+}
+#team .social .fa-facebook:hover{
+    color: #3b5998;
+}
+#team .social .fa-google-plus:hover{
+    color: #dd4b39;
+}
+#team .social .fa-linkedin:hover{
+    color: #007bb5;
+}
+/* ---------------- Start Contact Us Section ---------------- */
+#contact-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F6F6F6;
+}
+#contact-us h1{
+    font-weight: bold;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#contact-us h1:after{
+    content: '';
+    display:block;
+    width: 50px;
+    height: 3px;
+    background-color: #03C4EB;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contact-us .info{
+    color: #111;
+}
+
+#contact-us i{
+    color: #03C4EB;
+    font-size:32px;
+    float: left;
+}
+#contact-us p{
+    line-height: 24px;
+    padding: 0 0 10px 50px;
+    margin-bottom: 30px;
+}
+
+#contact-us .form-group{
+    margin-bottom: 15px;
+}
+#contact-us button{
+    background: #03C4EB;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+/* ---------------- Start Footer Section ---------------- */
+footer{
+    background-color: #111;
+    padding: 40px;
+    color: #fff;
+}
+footer .theme{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+footer span{
+    color: #03C4EB;
+}
+/* ---------------- Start Scroll To TOp ---------------- */
+#scroll-to-top{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    border-radius: 2px;
+    display: none;
+    cursor: pointer;
+}
+#scroll-to-top:hover{
+    background-color: #25D8FC;
+}
+/* @media(max-width : 767px){}
+    @media(min-width : 768px){}
+    @media(min-width : 992px){}
+    @media(min-width : 1200px){}
+ */
+
+ /*
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+ */
+
+/* Small Device */
+@media (max-width: 767px) {
+    .header{
+        overflow: hidden;
+    }
+    #about-us .row h3{
+
+        padding-top: 30px;
+    }
+    #service{
+        height: 1000px;
+    }
+    #service .row{
+        margin-bottom: 0;
+    }
+    #service .serv{
+        padding-bottom: 10px;
+    }
+    #service h4{
+        margin-bottom: 5px;
+    }
+    .subscribe{
+        height: 280px;
+    }
+    .subscribe .overlay{
+        padding-top: 20px;
+        text-align: center;
+    }
+    #portfolio{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #testimonials .test-port{
+        margin-top: 10px;
+    }
+    #testimonials .test-port .image{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    #testimonials .quote{
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    #team{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #team .col-md-3{
+        padding-top: 40px;
+    }
+    #team img{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        border: 3px solid #03C4EB;
+    }
+    #team h4{
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+    #contact-us{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #contact-us .info{
+        text-align: center;
+    }
+    #contact-us p{
+        margin-bottom: 5px;
+    }
+}
+/* Small Device */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar{
+        padding: 0;
+    }
+    .navbar ul{
+        padding: 5px;
+    }
+    .navbar li{
+        padding: 0;
+        margin-left: 1px;
+    }
+    .navbar img{
+        max-height: 30px;
+        padding:4px 0 0 0;
+    }
+    #about-us{
+        text-align: center;
+    }
+    #service{
+        padding-bottom:10px;
+
+        height: 700px;
+    }
+    #service .overlay{
+        padding-top: 30px;
+    }
+    .subscribe .overlay{
+        padding-top: 30px;
+        text-align: center;
+    }
+    #portfolio{
+        padding: 30px 0;
+    }
+    #testimonials{
+        padding-top: 30px;
+    }
+    #testimonials .test-port{
+        margin-top: 10px;
+    }
+    #testimonials .test-port .image{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    #testimonials .quote{
+        padding: 30px;
+        margin-top: 20px;
+    }
+    #team img{
+        height: 350px;
+        width: 350px;
+        margin: auto;
+    }
+    #team h4{
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+    #team .social{
+        margin-bottom: 20px;
+    }
+    #contact-us{
+        padding: 30px 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #service .overlay{
+        padding-top:30px;
+    }
+}
